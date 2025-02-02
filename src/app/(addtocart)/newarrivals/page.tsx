@@ -4,7 +4,7 @@ import { urlFor } from '@/sanity/lib/image';
 
 interface Product {
   title: string;
-  image: any;  
+  image: string;  
   price: number;
   slug: string;
 }

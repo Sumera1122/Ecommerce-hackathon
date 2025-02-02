@@ -138,7 +138,7 @@ async function ProductDetail({ params }: { params: { slug: string } }) {
         {/* Image Section */}
         <div className="md:w-1/3 mb-6 md:mb-0">
           <img
-            src={urlFor(res?.image!).url()}
+            src={urlFor(res?.image?? 'default').url()}
             alt={res?.title}
             className="w-full h-64 object-cover rounded-lg shadow-md"
           />
