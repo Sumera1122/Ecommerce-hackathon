@@ -2,10 +2,12 @@
 import { Button } from '@/components/ui/button'; 
 import { client } from '@/sanity/lib/client'; 
 import { urlFor } from '@/sanity/lib/image';
+// import { Import } from 'lucide-react';
+
 
 interface Product {
   title: string;
-  image: string;  
+  image: string; 
   price: number;
   slug: string;
 }

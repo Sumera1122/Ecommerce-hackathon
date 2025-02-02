@@ -1,10 +1,11 @@
 "use client"
 
-import ProductList from "./(addtocart)/productlist/page";
+
 import Card_list from "./cards/page";
 import Hero from "./components/hero";
 import Fonts from "./components/fonts";
 import Link from "next/link";
+import ProductList from "./productlist/page";
 
 
 export default function Home() {
